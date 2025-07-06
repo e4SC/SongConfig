@@ -82,17 +82,7 @@ https://www.python.org/ftp/python/3.10.11/python-3.10.11-amd64.exe
 - 3) pip install pandas
 - 4) pip install openpyxl
 
-## 3.ffmpeg 다운로드
-https://www.gyan.dev/ffmpeg/builds/
-
-에서 ffmpeg-git-full.7z 다운받으세요.
-
-- 1. C:\ 에 해당 파일을 넣고 압축 풀기
-- 2. 폴더명을 ffmpeg 으로 바꾸기
-- 3. 내 컴퓨터 우클릭 -> 속성 -> 고급 시스템 설정 -> 환경 변수 -> 시스템 변수 탭에서 새로 만들기 -> 변수 이름에 FFMPEG_HOME 입력 -> 경로에 C:\ffmpeg\bin 입력 -> 확인 -> 시스템 변수 탭에서 Path 찾기 
--> Path 내부에서 새로 만들기해서 %FFMPEG_HOME% 추가하기
-
-## 4. 자르기/믹스 실행 (프로그램 기본값으로 자르시는게 가장 좋습니다.)
+## 3. 자르기/믹스 실행 (프로그램 기본값으로 자르시는게 가장 좋습니다.)
 - SongConfig 실행 후 음원 자르기 버튼 클릭.
 - 엑셀 실행이되면 Cut 또는 Mix 시트에서 형식에 맞춰서 작성.
 - SongConfig로 돌아와서 mp3, ogg, wav 중 어떤 형식으로 저장할지 설정.
